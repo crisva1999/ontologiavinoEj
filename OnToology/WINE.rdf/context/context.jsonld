@@ -1,0 +1,137 @@
+{
+  "@context" : {
+    "hasPrice" : {
+      "@id" : "http://www.semanticweb.org/CRIS/ontologies/2023/3/SpanishWineQuality#hasPrice",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "YEAR" : {
+      "@id" : "http://www.semanticweb.org/CRIS/ontologies/2023/3/SpanishWineQuality#YEAR"
+    },
+    "PRIORAT_RED" : {
+      "@id" : "http://www.semanticweb.org/CRIS/ontologies/2023/3/SpanishWineQuality#PRIORAT_RED"
+    },
+    "hasRating" : {
+      "@id" : "http://www.semanticweb.org/CRIS/ontologies/2023/3/SpanishWineQuality#hasRating",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "TEMPRANILLO" : {
+      "@id" : "http://www.semanticweb.org/CRIS/ontologies/2023/3/SpanishWineQuality#TEMPRANILLO"
+    },
+    "fronWinery" : {
+      "@id" : "http://www.semanticweb.org/CRIS/ontologies/2023/3/SpanishWineQuality#fronWinery",
+      "@type" : "@id"
+    },
+    "RATING" : {
+      "@id" : "http://www.semanticweb.org/CRIS/ontologies/2023/3/SpanishWineQuality#RATING"
+    },
+    "fromRegion" : {
+      "@id" : "http://www.semanticweb.org/CRIS/ontologies/2023/3/SpanishWineQuality#fromRegion",
+      "@type" : "@id"
+    },
+    "isRuleEnabled" : {
+      "@id" : "http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"
+    },
+    "WINERY" : {
+      "@id" : "http://www.semanticweb.org/CRIS/ontologies/2023/3/SpanishWineQuality#WINERY"
+    },
+    "YOUNG" : {
+      "@id" : "http://www.semanticweb.org/CRIS/ontologies/2023/3/SpanishWineQuality#YOUNG"
+    },
+    "hasNumReviews" : {
+      "@id" : "http://www.semanticweb.org/CRIS/ontologies/2023/3/SpanishWineQuality#hasNumReviews",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "TYPE" : {
+      "@id" : "http://www.semanticweb.org/CRIS/ontologies/2023/3/SpanishWineQuality#TYPE"
+    },
+    "CHEAP" : {
+      "@id" : "http://www.semanticweb.org/CRIS/ontologies/2023/3/SpanishWineQuality#CHEAP"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "hasAcidity" : {
+      "@id" : "http://www.semanticweb.org/CRIS/ontologies/2023/3/SpanishWineQuality#hasAcidity",
+      "@type" : "@id"
+    },
+    "WINE_CHARACTERISTICS" : {
+      "@id" : "http://www.semanticweb.org/CRIS/ontologies/2023/3/SpanishWineQuality#WINE_CHARACTERISTICS"
+    },
+    "ORIGIN" : {
+      "@id" : "http://www.semanticweb.org/CRIS/ontologies/2023/3/SpanishWineQuality#ORIGIN"
+    },
+    "BREEDING" : {
+      "@id" : "http://www.semanticweb.org/CRIS/ontologies/2023/3/SpanishWineQuality#BREEDING"
+    },
+    "isTypeWine" : {
+      "@id" : "http://www.semanticweb.org/CRIS/ontologies/2023/3/SpanishWineQuality#isTypeWine",
+      "@type" : "@id"
+    },
+    "BAD" : {
+      "@id" : "http://www.semanticweb.org/CRIS/ontologies/2023/3/SpanishWineQuality#BAD"
+    },
+    "ACIDITY" : {
+      "@id" : "http://www.semanticweb.org/CRIS/ontologies/2023/3/SpanishWineQuality#ACIDITY"
+    },
+    "topObjectProperty" : {
+      "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty",
+      "@type" : "@id"
+    },
+    "NICE" : {
+      "@id" : "http://www.semanticweb.org/CRIS/ontologies/2023/3/SpanishWineQuality#NICE"
+    },
+    "hasMade" : {
+      "@id" : "http://www.semanticweb.org/CRIS/ontologies/2023/3/SpanishWineQuality#hasMade",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "hasBody" : {
+      "@id" : "http://www.semanticweb.org/CRIS/ontologies/2023/3/SpanishWineQuality#hasBody",
+      "@type" : "@id"
+    },
+    "WINE" : {
+      "@id" : "http://www.semanticweb.org/CRIS/ontologies/2023/3/SpanishWineQuality#WINE"
+    },
+    "NUM_REVIEWS" : {
+      "@id" : "http://www.semanticweb.org/CRIS/ontologies/2023/3/SpanishWineQuality#NUM_REVIEWS"
+    },
+    "RIBERA_DEL_DUERO_RED" : {
+      "@id" : "http://www.semanticweb.org/CRIS/ontologies/2023/3/SpanishWineQuality#RIBERA_DEL_DUERO_RED"
+    },
+    "TORO_RED" : {
+      "@id" : "http://www.semanticweb.org/CRIS/ontologies/2023/3/SpanishWineQuality#TORO_RED"
+    },
+    "EXPENSIVE" : {
+      "@id" : "http://www.semanticweb.org/CRIS/ontologies/2023/3/SpanishWineQuality#EXPENSIVE"
+    },
+    "RESERVATION" : {
+      "@id" : "http://www.semanticweb.org/CRIS/ontologies/2023/3/SpanishWineQuality#RESERVATION"
+    },
+    "ALBARIÑO" : {
+      "@id" : "http://www.semanticweb.org/CRIS/ontologies/2023/3/SpanishWineQuality#ALBARIÑO"
+    },
+    "ASSESSMENT" : {
+      "@id" : "http://www.semanticweb.org/CRIS/ontologies/2023/3/SpanishWineQuality#ASSESSMENT"
+    },
+    "BODY" : {
+      "@id" : "http://www.semanticweb.org/CRIS/ontologies/2023/3/SpanishWineQuality#BODY"
+    },
+    "REGION" : {
+      "@id" : "http://www.semanticweb.org/CRIS/ontologies/2023/3/SpanishWineQuality#REGION"
+    },
+    "PRICE" : {
+      "@id" : "http://www.semanticweb.org/CRIS/ontologies/2023/3/SpanishWineQuality#PRICE"
+    },
+    "sameAs" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#sameAs"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "RIOJA_RED" : {
+      "@id" : "http://www.semanticweb.org/CRIS/ontologies/2023/3/SpanishWineQuality#RIOJA_RED"
+    },
+    "MEDIUM" : {
+      "@id" : "http://www.semanticweb.org/CRIS/ontologies/2023/3/SpanishWineQuality#MEDIUM"
+    }
+  }
+}
