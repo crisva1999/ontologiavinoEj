@@ -1,0 +1,29 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; "SpanishWineQuality:PRICE" "SpanishWineQuality:BODY" "SpanishWineQuality:BAD" "SpanishWineQuality:REGION" "SpanishWineQuality:ORIGIN" "SpanishWineQuality:NUM_REVIEWS" "SpanishWineQuality:BREEDING" "SpanishWineQuality:NICE" "SpanishWineQuality:ASSESSMENT" "SpanishWineQuality:TEMPRANILLO" "SpanishWineQuality:ALBARIÑO" "SpanishWineQuality:TORO_RED" "SpanishWineQuality:TYPE" "SpanishWineQuality:WINERY" "SpanishWineQuality:RIOJA_RED" "SpanishWineQuality:PRIORAT_RED" "SpanishWineQuality:YOUNG" "SpanishWineQuality:RATING" "SpanishWineQuality:MEDIUM" "SpanishWineQuality:CHEAP" "SpanishWineQuality:ACIDITY" "SpanishWineQuality:RESERVATION" "SpanishWineQuality:EXPENSIVE" "SpanishWineQuality:RIBERA_DEL_DUERO_RED" "SpanishWineQuality:YEAR" "SpanishWineQuality:WINE_CHARACTERISTICS" ; /*classes style*/
+	"SpanishWineQuality:RIOJA_RED" -> "SpanishWineQuality:TYPE" [ label = "rdfs:subClassOf" ];
+	"SpanishWineQuality:EXPENSIVE" -> "SpanishWineQuality:PRICE" [ label = "rdfs:subClassOf" ];
+	"SpanishWineQuality:YOUNG" -> "SpanishWineQuality:YEAR" [ label = "rdfs:subClassOf" ];
+	"SpanishWineQuality:PRIORAT_RED" -> "SpanishWineQuality:TYPE" [ label = "rdfs:subClassOf" ];
+	"SpanishWineQuality:TORO_RED" -> "SpanishWineQuality:TYPE" [ label = "rdfs:subClassOf" ];
+	"SpanishWineQuality:CHEAP" -> "SpanishWineQuality:PRICE" [ label = "rdfs:subClassOf" ];
+	"SpanishWineQuality:PRICE" -> "SpanishWineQuality:WINE_CHARACTERISTICS" [ label = "rdfs:subClassOf" ];
+	"SpanishWineQuality:TYPE" -> "SpanishWineQuality:WINE_CHARACTERISTICS" [ label = "rdfs:subClassOf" ];
+	"SpanishWineQuality:BAD" -> "SpanishWineQuality:RATING" [ label = "rdfs:subClassOf" ];
+	"SpanishWineQuality:RESERVATION" -> "SpanishWineQuality:YEAR" [ label = "rdfs:subClassOf" ];
+	"SpanishWineQuality:RIBERA_DEL_DUERO_RED" -> "SpanishWineQuality:TYPE" [ label = "rdfs:subClassOf" ];
+	"SpanishWineQuality:ACIDITY" -> "SpanishWineQuality:WINE_CHARACTERISTICS" [ label = "rdfs:subClassOf" ];
+	"SpanishWineQuality:YEAR" -> "SpanishWineQuality:WINE_CHARACTERISTICS" [ label = "rdfs:subClassOf" ];
+	"SpanishWineQuality:REGION" -> "SpanishWineQuality:ORIGIN" [ label = "rdfs:subClassOf" ];
+	"SpanishWineQuality:BODY" -> "SpanishWineQuality:WINE_CHARACTERISTICS" [ label = "rdfs:subClassOf" ];
+	"SpanishWineQuality:BREEDING" -> "SpanishWineQuality:YEAR" [ label = "rdfs:subClassOf" ];
+	"SpanishWineQuality:TEMPRANILLO" -> "SpanishWineQuality:TYPE" [ label = "rdfs:subClassOf" ];
+	"SpanishWineQuality:NUM_REVIEWS" -> "SpanishWineQuality:ASSESSMENT" [ label = "rdfs:subClassOf" ];
+	"SpanishWineQuality:NICE" -> "SpanishWineQuality:RATING" [ label = "rdfs:subClassOf" ];
+	"SpanishWineQuality:ALBARIÑO" -> "SpanishWineQuality:TYPE" [ label = "rdfs:subClassOf" ];
+	"SpanishWineQuality:RATING" -> "SpanishWineQuality:ASSESSMENT" [ label = "rdfs:subClassOf" ];
+	"SpanishWineQuality:WINERY" -> "SpanishWineQuality:ORIGIN" [ label = "rdfs:subClassOf" ];
+	"SpanishWineQuality:MEDIUM" -> "SpanishWineQuality:RATING" [ label = "rdfs:subClassOf" ];
+
+}
